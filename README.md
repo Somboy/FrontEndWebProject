@@ -1,10 +1,10 @@
-# Basic breakpoint exercise
+# DMU Students Hub
 
-This exercise is about responsive design. The idea is to create two breakpoints to allow for three distinct sizes as shown below.
+This website is going to be a central place where DMU students can find lots of interesting things
+Including:
+Information
+Advice
+Campus map
+...
+And other interesting local events - ie places to eat
 
-Read the more detailed instructions on Blackboard.
-
-
-![](imgs/mobile.png)
-![](imgs/tablet.png)
-![](imgs/desktop.png)
