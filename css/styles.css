@@ -38,27 +38,30 @@ section {
   color: white;
 }
 .section1 {
-	background: #1e7ca1;
+	background: #cb2025;
+
 }
 .section2 {
-	background: #579b57;
+	background: #f8b334;
 }
 .section3 {
-	background: #8f34b3;
+	background: #97bf0d;
 }
 .section4 {
    width: 45%;
-   background: #efef2f;
+   background: #00a096;
 }
 .section5 {
    width: 45%;
-   background: #df3131;
+   background: #4040d1;
 }
 .section6 {
    background: #e91e63c4;
 }
 section:hover {
   background: #666;
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
 }
 
 /* Add a black background color to the top navigation */
