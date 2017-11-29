@@ -1,0 +1,85 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
+/*
+  - this applies to any screen sizes under 500px
+  - if you leave the width off, sections will automatically fill the full page width
+  - no margins and little or no padding
+*/
+
+
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (max-width: 500px) {
+  /* 
+    - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
+    - add any hover states here
+    - increase font sizes
+    - add margins and padding to space things out
+    - decrease width of sections
+    - add `display: inline-block;` so that sections will float next to each other
+  */
+  .outwrap{
+	width:100%
+  }
+  section{
+      width:95%;
+	  background:red;
+  }
+  .section4 {
+   width: 95%;
+   background: #efef2f;
+}
+.section5 {
+   width: 95%;
+
+}
+  p{
+	display:none;
+  }
+  
+  .thumbnail{
+	display:none;
+  }
+  .topnav a {
+	display:none;  
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: unset;
+    display: block;
+  }
+  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (max-width: 1000px) and (min-width:500px) {
+  /*
+    - applies to screens larger than 999px only
+    - add a max-width to your main section
+    - further decrease size of sections
+    - increase size of headings and global fonts
+  */
+  .outwrap{
+	width:100%
+  }
+  section{
+	  width:45%;
+	  background:yellow;
+  }
+  p{
+	display:block;
+  }
+}
+/* END SECOND BREAKPOINT */
