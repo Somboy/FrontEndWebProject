@@ -13,6 +13,7 @@ header {
   background: #ccc;
   color: #444;
   text-align: center;
+  height: 180px;
 }
 h1 {
   font-size: 2.5em;
@@ -108,7 +109,7 @@ section:hover {
 footer{
 	padding-top: 3%;
     text-align: center;
-    background-color: #008999;
+    background: #ccc;
     color: #fff;
 }
 
