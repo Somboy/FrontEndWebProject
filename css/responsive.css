@@ -59,6 +59,11 @@
     display: block;
     text-align: left;
   }
+    #map {
+  height: 400px;
+  width: 100%;
+  margin-left:0px;
+}
 }
 /* END FIRST BREAKPOINT */
 
@@ -81,5 +86,6 @@
   p{
 	display:block;
   }
+ 
 }
 /* END SECOND BREAKPOINT */
