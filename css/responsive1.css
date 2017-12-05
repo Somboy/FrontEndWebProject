@@ -1,0 +1,47 @@
+@media screen and (min-width: 500px) {
+ .outwrap{
+	width:100%
+  }
+  section{
+	  width:45%;
+	  background:yellow;
+  }
+  p{
+	display:block;
+  }
+ 
+}
+}
+
+@media screen and (max-width: 1000px) and (min-width:500px) {
+
+/*@media screen and (min-width:1000px) { */
+/* GLOBAL STYLES */
+
+.outwrap{
+	width:60%;
+	margin:0 auto;
+}
+section {
+  font-size: 1em;
+  width: 30%;
+  margin: 1em 1% 1em 1%;
+  display: inline-block;
+  color: white;
+  border-radius: 50px;
+}
+.section4 {
+   width: 33%;
+   background: #00a096;
+}
+.section5 {
+   width: 33%;
+   background: #4040d1;
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+}
