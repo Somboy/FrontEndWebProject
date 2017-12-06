@@ -4,12 +4,17 @@
   }
   section{
 	  width:45%;
-	  background:yellow;
+
   }
+  
   p{
 	display:block;
   }
- 
+ .topnav a {
+	display:block;  
+  }
+  .topnav a:not(:first-child) {display: block;}
+  .topnav a.icon {display: none;}
 }
 }
 
@@ -24,24 +29,24 @@
 }
 section {
   font-size: 1em;
-  width: 30%;
+  width: 15%;
   margin: 1em 1% 1em 1%;
   display: inline-block;
   color: white;
   border-radius: 50px;
 }
+
 .section4 {
-   width: 33%;
+   width: 15%;
    background: #00a096;
 }
 .section5 {
-   width: 33%;
+   width: 15%;
    background: #4040d1;
 
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
+
+
 
 }

@@ -4,7 +4,7 @@ body {
   background: #eee;
 }
 header {
-  background: #ccc;
+  background: <img src="imgs/money.jpg" alt="money">;
   color: #444;
   text-align: center;
   height: 180px;
@@ -29,13 +29,13 @@ main {
   section{
   width:95%;
   font-size: 1em;
-  margin: 1em 1% 1em 1%;
+  margin: 5em 1% 1em 1%;
   display: inline-block;
   color: white;
-  border-radius: 50px;
+  border-radius: 20px;
   }
   section:hover {
-  background: #666;
+
   transition: all 200ms ease-in;
   transform: scale(1.5);
 }
@@ -43,13 +43,13 @@ main {
 	background: #cb2025;
 }
 .section2 {
-	background: #f8b334;
+
 }
 .section3 {
 	background: #97bf0d;
 }
 .section4 {
-   background: #00a096;
+
 }
 .section5 {
    background: #4040d1;
@@ -86,14 +86,7 @@ main {
     background-color: #4CAF50;
     color: white;
 }
-  .section4 {
-   width: 95%;
-   background: #efef2f;
-}
-.section5 {
-   width: 95%;
 
-}
   p{
 	display:none;
   }
@@ -133,6 +126,11 @@ main {
 .banner{
 	width:100%;
 	height:auto;
+}
+.banner2{
+	width:100%;
+	height:auto;
+	border-radius: 20px;
 }
 .thumbnail{
 	width:95%;
