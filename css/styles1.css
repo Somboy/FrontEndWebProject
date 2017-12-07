@@ -4,10 +4,9 @@ body {
   background: #eee;
 }
 header {
-  background: <img src="imgs/money.jpg" alt="money">;
+  background: url("imgs/money.jpg")
   color: #444;
   text-align: center;
-  height: 180px;
 }
 h1 {
   font-size: 2.5em;
@@ -29,33 +28,34 @@ main {
   section{
   width:95%;
   font-size: 1em;
-  margin: 5em 1% 1em 1%;
+  margin: 1em 1% 1em 1%;
   display: inline-block;
   color: white;
   border-radius: 20px;
+  background: #97bf0d;
   }
   section:hover {
 
-  transition: all 200ms ease-in;
-  transform: scale(1.5);
+  transition: all 100ms ease-in;
+  transform: scale(1.1);
 }
 .section1 {
-	background: #cb2025;
+	
 }
 .section2 {
-
+	
 }
 .section3 {
-	background: #97bf0d;
+	
 }
 .section4 {
-
+	
 }
 .section5 {
-   background: #4040d1;
+	
 }
 .section6 {
-   background: #e91e63c4;
+ 
 }
 
 /* Add a black background color to the top navigation */
@@ -130,7 +130,7 @@ main {
 .banner2{
 	width:100%;
 	height:auto;
-	border-radius: 20px;
+	border-radius: 30px;
 }
 .thumbnail{
 	width:95%;
