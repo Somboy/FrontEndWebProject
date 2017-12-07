@@ -4,7 +4,6 @@ body {
   background: #eee;
 }
 header {
-  background: url("imgs/money.jpg")
   color: #444;
   text-align: center;
 }
@@ -32,12 +31,13 @@ main {
   display: inline-block;
   color: white;
   border-radius: 20px;
-  background: #97bf0d;
+  background: #eec981;
   }
   section:hover {
 
   transition: all 100ms ease-in;
   transform: scale(1.1);
+  animation: 2s counterclockwise infinite;
 }
 .section1 {
 	
@@ -147,7 +147,26 @@ a {
 footer{
 	padding-top: 3%;
     text-align: center;
-    background: #ccc;
+    background: #eee;
     color: #fff;
+}
+.socialMedia{
+display: -webkit-box;
+}
+.facebook {
+	background: #050594ab;
+	width:25%;
+}
+.twitter {
+	background: #329ac4;
+	width:25%;
+}
+.google {
+	background: #f7703b;
+	width:25%;
+}
+.github {
+	background: #00a333a3;
+	width:25%;
 }
 
