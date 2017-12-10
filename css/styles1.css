@@ -19,7 +19,7 @@ main {
   margin: 0 auto;
   background: #eee;
   text-align: center;
-  padding: 2px;
+ /* padding: 2px; */
 }
 .outwrap{
 	width:100%
@@ -28,10 +28,12 @@ main {
   width:95%;
   font-size: 1em;
   margin: 1em 1% 1em 1%;
+  margin-top: 16%;
   display: inline-block;
   color: white;
   border-radius: 20px;
   background: #eec981;
+  cursor: pointer;
   }
   section:hover {
   transition: all 100ms ease-in;
@@ -128,8 +130,7 @@ main {
   margin-left:0px;
 }
 .banner{
-	width:100%;
-	height:auto;
+	display:none;
 }
 .banner2{
 	width:100%;
@@ -155,25 +156,88 @@ footer{
     background: #eee;
     color: #fff;
 }
+footer h2 {
+	display:none;
+  }
+
 .socialMedia{
-display: -webkit-box;
+	display: -webkit-box;
+	cursor: pointer;
 }
 .facebook {
-	background: #050594ab;
+	background: #2929e185;
 	width:25%;
-
+}
+.facebook img {
+	width:50%;
 }
 .twitter {
 	background: #329ac4;
 	width:25%;
 
 }
+.twitter img {
+	width:50%;
+}
 .google {
 	background: #f7703b;
 	width:25%;
+}
+.google img {
+	width:50%;
 }
 .github {
 	background: #00a333a3;
 	width:25%;
 }
+.github img {
+	width:50%;
+}
 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #f3bf5c;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+form {
+	background: #467ca9;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    text-align: left;
+    border-radius: 2%;
+}
+.divform {
+	
+	width: 100%;
+    padding-left: 0;
+    padding-top: 5%;
+    text-align: left;
+    background: #467ca9;
+	margin-top: 12%;
+}

@@ -1,6 +1,14 @@
 @media screen and (min-width: 480px) {
-  section{
-	  width:40%;
+
+.banner{
+	margin-top: 6%;
+	display:block;
+	width:100%;
+	height:auto;
+}
+section{
+	width:40%;
+	margin-top: 2%;
   }
   
   p{
@@ -11,15 +19,44 @@
   }
   .topnav a:not(:first-child) {display: block;}
   .topnav a.icon {display: none;}
-}
 
+.divform {
+/*	width: 50%;
+    padding-left: 20%; 
+    padding-right: 25%;
+    padding-top: 5%;
+    text-align: left;
+    padding-top: 70px;
+	background: #f3bf5c;
+*/
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: left;
+	background: #467ca9;
+    border-radius: 2%;
+    padding: 2%;
+
+}
+footer h2 {
+	display:block;
+  }
+footer img {
+	display:none;
+  }
+.facebook {
+	background: #2929e1b3;
+
+}
 
 @media screen and (min-width: 800px) {
 	
 
 /*@media screen and (min-width:1000px) { */
 /* GLOBAL STYLES */
-
+.banner{
+	margin-top: 3%;
+}
 
 section {
   font-size: 1em;
