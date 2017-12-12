@@ -1,5 +1,6 @@
 # DMU Students Central
-I would like to mention that previously I was working on a porfolio project. <link here> I changed my mind due to the high number of other students 
+I would like to mention that previously I was working on a porfolio project. see link --> a [link] (https://github.com/Somboy/Portfolio). 
+I changed my mind due to the high number of other students 
 doing the same project. 
 
 1. ## About this website
