@@ -28,7 +28,7 @@ I will be using compination of HTLM5, CSS3, and JAVASCRIPT E6
 Problems when developing the site that I came accross were:
 - website not being responsive although I used all the breakpoints correctly. Apparently, it worked by resizing the browser window but not
 when using chrome responsive tool nor did it work on tried Andriod and iphone smartphones.
-### <how did I overcame this problem>
+### how did I overcame this problem
 -well I tried many things but ended up using rows and colums for the main content area.
 
 
