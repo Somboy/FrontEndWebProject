@@ -17,6 +17,17 @@
 	
 }
 
+.divform {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: left;
+	background: #467ca9;
+    border-radius: 8%;
+    padding: 4%;
+
+}
+
 
 @media only screen and (min-width: 960px) {
 	/* For desktop: */
@@ -37,5 +48,8 @@
 	}
 	footer{
 		width:80%;
+	}
+	.divform {
+    width: 50%;
 	}
 }
