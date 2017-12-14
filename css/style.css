@@ -121,8 +121,8 @@ main section{
 	border-radius:35px;
 }
 
-footer {
-	width:100%;
+.social-media {
+	width:80%;
 	margin:0 auto;
     background-color: #ff;
 	border:1px solid #0099cc;
@@ -130,19 +130,19 @@ footer {
     font-size: 12px;
     padding: 15px;
 }
-footer section{
+.social-media section{
 	background:none;
 	border:none;
 	border:none;
 }
-footer  h2{
+.social-media  h2{
     background:none;
     color: #000;
     padding:0px;
     margin: 0px;
     border:none;
 }
-footer img{
+.social-media img{
 	width:10%;
 }
 
@@ -203,7 +203,42 @@ form {
     background: #467ca9;
 	margin-top: 10%;
 }
+#campus {
+	background-color: #5f6ba0;
+	border-radius: 30px;
+	margin-top: 7%;
+}
 
+#money {
+	background-color: cadetblue;
+	border-radius: 30px;
+}
 
+#advice {
+	background-color: #33ce5a;
+	border-radius: 30px;
+}
 
+#international {
+	background-color: #ed75e0;
+	border-radius: 30px;
+}
+
+#the-city {
+	background-color: #ed7f6f;
+	border-radius: 30px;
+}
+
+#fun{
+	background-color: #68f3ff;
+	border-radius: 30px;
+}
+
+#top {
+    background-color: #0b8c96;
+    color: #fff;
+    border-top-right-radius: 24px;
+	margin: -7px 0px 30px;
+
+}
 
