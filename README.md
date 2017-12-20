@@ -39,7 +39,7 @@ Below is an image of my initial design.
 * ### Prototype:
 I have used Microsoft office Powerpoint software - shape tools to draw a sketches of the website. This helped me to determine the actual look of the website and the information I should include especially on different devices. My approach was mobile first as the project requirement. Below are images of the website prototype showing how the website will look like on mobile first, then tablet, then laptop/desktop and large screen sizes. 
 ##### Mobile View
-<img src="imgs\readme\mobile1.png" width="250px" alt="Mobile View" />
+<img src="imgs\readme\mobile1.png" width="100%" alt="Mobile View" />
 <img src="imgs\readme\mobile2.png" width="250px" alt="Mobile View" />
 
 
