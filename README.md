@@ -39,17 +39,17 @@ Below is an image of my initial design.
 * ### Prototype:
 I have used Microsoft office Powerpoint software - shape tools to draw a sketches of the website. This helped me to determine the actual look of the website and the information I should include especially on different devices. My approach was mobile first as the project requirement. Below are images of the website prototype showing how the website will look like on mobile first, then tablet, then laptop/desktop and large screen sizes. 
 ##### Mobile View
-<img src="imgs\readme\mobile1.png" width="100%" alt="Mobile View" />
-<img src="imgs\readme\mobile2.png" width="250px" alt="Mobile View" />
+<img src="https://c1.staticflickr.com/5/4679/39140777092_fab653c73a_o.png" width="100%" alt="Mobile View" />
+<img src="https://c1.staticflickr.com/5/4725/38291337745_f538cccc0d_o.png" width="100%" alt="Mobile View" />
 
 
 
 ##### Tablet View
-<img src="imgs\readme\tablet.png" width="250px" alt="tablet View" />
+<img src="https://c1.staticflickr.com/5/4692/39140776752_7b5c7af35e_o.png" width="100%" alt="tablet View" />
 
 
 ##### Desktop View
-<img src="imgs\readme\desktop.png" width="250px" alt="desktop View" />
+<img src="https://c1.staticflickr.com/5/4634/38292222585_443814bf67_o.png" width="100%" alt="desktop View" />
 
 3. ## Development Process
 * ### coding language:
