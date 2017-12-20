@@ -61,10 +61,10 @@ I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
 
 4. ## Testing
 * ### Responsive tests
-  1-browsers: Tested on all major browsers including chrome, Internet explorer, and Firefox.
-  2-devices: mobile, tablet, laptop/desktop and TV screens.
-  3-user experience: colleagues and family members to navigate and give feedback for accessibility.	
-* ### -code validation:
+  1. browsers: Tested on all major browsers including chrome, Internet explorer, and Firefox.
+  2. devices: mobile, tablet, laptop/desktop and TV screens.
+  3. user experience: colleagues and family members to navigate and give feedback for accessibility.	
+* ### code validation: used W3schools website to validate html5 and css
 
 5. ## Critical review:
 Problems when developing the site that I came across were:
