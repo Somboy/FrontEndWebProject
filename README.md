@@ -34,7 +34,7 @@ such as:
 * ### Wire-frame:
 This is the blueprint of my website design - shows how I am going to arrange elements. On top, I will have navigation menus, followed by banner image(slideshow imgs). In the middle of the page is where I will put all the important contents.
 Below is an image of my initial design.
-<img src="https://c1.staticflickr.com/5/4683/38291336825_5a679d4fda_o.png" width="250px" alt="wire frame" />
+<img src="https://c1.staticflickr.com/5/4683/38291336825_5a679d4fda_o.png" width="100%" alt="wire frame" />
 
 * ### Prototype:
 I have used Microsoft office Powerpoint software - shape tools to draw a sketches of the website. This helped me to determine the actual look of the website and the information I should include especially on different devices. My approach was mobile first as the project requirement. Below are images of the website prototype showing how the website will look like on mobile first, then tablet, then laptop/desktop and large screen sizes. 
