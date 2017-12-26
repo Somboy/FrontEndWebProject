@@ -1,35 +1,76 @@
-# DMU Students Central
-I would like to mention that previously I was working on a porfolio project. see link --> a [link] (https://github.com/Somboy/Portfolio). 
-I changed my mind due to the high number of other students 
-doing the same project. 
+# Front End Web Project
+### Khalid Moalin P13198111
+---
+### Contents
+1. Brief description
+2. Design
+-wire-frame
+-prototype
 
-1. ## About this website
+3. Development
+-coding language
+-software platform
+4. Testing
+-responsive test
+  -browsers
+  -devices
+  -user experience
+-code validation
+5. Critical review:
+---
+First of all, I would like to mention that previously I was working on a portfolio project. see link --> (https://github.com/Somboy/Portfolio). 
+I changed my mind due to the high number of other students doing the same project as well as me wanting to do something different and more challenging.
 
-This website is going to be a central place where DMU students can find lots of interesting things:
-Including:
--Information
--Advice
--Campus map -with details
--And other interesting local events - ie places to go for fun and eat.
+---
+1. ## Brief description:
+I am naming the website as StudentsCentral. This website is going to be a central place where DMU students can find lots of interesting things:
+such as:
+* Information
+* Advice
+* Campus map -with details
+* And other interesting local events - i.e places to go for fun and eat.
 
-2. ## Codeing Language
-I will be using compination of HTLM5, CSS3, and JAVASCRIPT E6
+2. ## Design
+* ### Wire-frame:
+This is the blueprint of my website design - shows how I am going to arrange elements. On top, I will have navigation menus, followed by banner image(slideshow imgs). In the middle of the page is where I will put all the important contents.
+Below is an image of my initial design.
+<img src="https://c1.staticflickr.com/5/4683/38291336825_5a679d4fda_o.png" width="100%" alt="wire frame" />
 
-3. ## Design platforms
--Starting with the prototype -scatches on paper -This will keep changing from time to time
--Interms of software, I will be using just text editor - Notepadd++
+* ### Prototype:
+I have used Microsoft office Powerpoint software - shape tools to draw a sketches of the website. This helped me to determine the actual look of the website and the information I should include especially on different devices. My approach was mobile first as the project requirement. Below are images of the website prototype showing how the website will look like on mobile first, then tablet, then laptop/desktop and large screen sizes. 
+##### Mobile View
+<img src="https://c1.staticflickr.com/5/4679/39140777092_fab653c73a_o.png" width="100%" alt="Mobile View" />
+<img src="https://c1.staticflickr.com/5/4725/38291337745_f538cccc0d_o.png" width="100%" alt="Mobile View" />
+
+
+
+##### Tablet View
+<img src="https://c1.staticflickr.com/5/4692/39140776752_7b5c7af35e_o.png" width="100%" alt="tablet View" />
+
+
+##### Desktop View
+<img src="https://c1.staticflickr.com/5/4634/38292222585_443814bf67_o.png" width="100%" alt="desktop View" />
+
+3. ## Development Process
+* ### coding language:
+I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
+
+* ### Software platform:
+-In-terms of software, I will be using just text editor - Notepadd++
 -Similarly, the editing tools provided by Google chrome browser
 
 4. ## Testing
--testing on different browsers, chrome, explorer and firefox
--using chrome browser device inspection tools for different screen sizes
--will be asking friends and famlity to navigate and improve upon feedback
+* ### Responsive tests
+  1. browsers: Tested on all major browsers including chrome, Internet explorer, and Firefox.
+  2. devices: mobile, tablet, laptop/desktop and TV screens.
+  3. user experience: colleagues and family members to navigate and give feedback for accessibility.	
+* ### code validation: used W3schools website to validate html5 and css
 
-## Critical review:
-Problems when developing the site that I came accross were:
+5. ## Critical review:
+Problems when developing the site that I came across were:
 - website not being responsive although I used all the breakpoints correctly. Apparently, it worked by resizing the browser window but not
 when using chrome responsive tool nor did it work on tried Andriod and iphone smartphones.
 ### how did I overcame this problem
--well I tried many things but ended up using rows and colums for the main content area.
+-well I tried many things but ended up using rows and columns for the main content area.
 
 
