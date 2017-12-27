@@ -75,13 +75,13 @@ when using chrome responsive tool nor did it work on tried Andriod and iphone sm
 
 5. ## References:
 
-Used GIMP for image manipulation
-* https://www.gimp.org
-Used 
-* W3schools(https://validator.w3.org/) for code validation, such as html and css
-Credit to some of the code to 
-* Codepen (https://codepen.io/)
-* Module materials (https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_460483_1&content_id=_3760194_1&mode=reset) 
-* and w3schools(https://www.w3schools.com/).
-Images used on the website are all from Google images 
-* https://images.google.com/
+* Used GIMP for image manipulation
+https://www.gimp.org
+* Used 
+W3schools(https://validator.w3.org/) for code validation, such as html and css
+* Credit to some of the code to 
+Codepen (https://codepen.io/)
+Module materials (https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_460483_1&content_id=_3760194_1&mode=reset) 
+and w3schools(https://www.w3schools.com/).
+* Images used on the website are all from Google images 
+https://images.google.com/
