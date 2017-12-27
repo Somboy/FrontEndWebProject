@@ -4,12 +4,12 @@
 ### Contents
 1. Brief description
 2. Design
-* wire-frame
-* prototype
+ * wire-frame
+ * prototype
 
 3. Development
-* coding language
-* software platform
+ * coding language
+ * software platform
 4. Testing
 * responsive test
   *  browsers
