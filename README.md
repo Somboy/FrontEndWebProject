@@ -63,6 +63,9 @@ I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
 4. ## Testing
 * ### Responsive tests
   1. browsers: Tested on all major browsers including chrome, Internet explorer, and Firefox.
+  <img src="https://c1.staticflickr.com/5/4596/27561995799_78c80b9753_b.jpg" width="100%" alt="chromeTest" />
+  <img src="https://c1.staticflickr.com/5/4732/27561993149_7932873687_b.jpg" width="100%" alt="explorerTest" />
+  <img src="https://c1.staticflickr.com/5/4639/27561991749_735bcde25f_b.jpg" width="100%" alt="firefoxTest" />
   2. devices: mobile, tablet, laptop/desktop and TV screens.
   3. user experience: colleagues and family members to navigate and give feedback for accessibility.	
 * ### code validation: used W3schools website to validate html5 and css
