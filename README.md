@@ -4,19 +4,20 @@
 ### Contents
 1. Brief description
 2. Design
--wire-frame
--prototype
+a. wire-frame
+b. prototype
 
 3. Development
--coding language
--software platform
+* coding language
+* software platform
 4. Testing
--responsive test
-  -browsers
-  -devices
-  -user experience
--code validation
-5. Critical review:
+* responsive test
+  a. browsers
+  b. devices
+  c. user experience
+* code validation
+5. Critical review
+6. References
 ---
 First of all, I would like to mention that previously I was working on a portfolio project. see link --> (https://github.com/Somboy/Portfolio). 
 I changed my mind due to the high number of other students doing the same project as well as me wanting to do something different and more challenging.
@@ -73,15 +74,17 @@ when using chrome responsive tool nor did it work on tried Andriod and iphone sm
 ### how did I overcame this problem
 -well I tried many things but ended up using rows and columns for the main content area.
 
-5. ## References:
+6. ## References:
 
 * Used GIMP for image manipulation
 https://www.gimp.org
 * Used 
 W3schools(https://validator.w3.org/) for code validation, such as html and css
 * Credit to some of the code to 
-Codepen (https://codepen.io/)
+Codepen (https://codepen.io/),
 Module materials (https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_460483_1&content_id=_3760194_1&mode=reset) 
 and w3schools(https://www.w3schools.com/).
 * Images used on the website are all from Google images 
 https://images.google.com/
+* Github markdown cheats 
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables
