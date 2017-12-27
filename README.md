@@ -4,17 +4,17 @@
 ### Contents
 1. Brief description
 2. Design
-a. wire-frame
-b. prototype
+* wire-frame
+* prototype
 
 3. Development
 * coding language
 * software platform
 4. Testing
 * responsive test
-  a. browsers
-  b. devices
-  c. user experience
+  *  browsers
+  *  devices
+  *  user experience
 * code validation
 5. Critical review
 6. References
