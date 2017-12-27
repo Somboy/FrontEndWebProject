@@ -67,6 +67,9 @@ I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
   <img src="https://c1.staticflickr.com/5/4732/27561993149_7932873687_b.jpg" width="100%" alt="explorerTest" />
   <img src="https://c1.staticflickr.com/5/4639/27561991749_735bcde25f_b.jpg" width="100%" alt="firefoxTest" />
   2. devices: mobile, tablet, laptop/desktop and TV screens.
+  <img src="https://c1.staticflickr.com/5/4635/27562000949_aa5b3b6a64_b.jpg" width="100%" alt="mobileTest" />
+  <img src="https://c1.staticflickr.com/5/4638/27561998879_30e537c87e_b.jpg" width="100%" alt="tabletTest" />
+  <img src="https://c1.staticflickr.com/5/4729/39338595941_6209d81eed_b.jpg" width="100%" alt="desktopTest" />
   3. user experience: colleagues and family members to navigate and give feedback for accessibility.	
 * ### code validation: used W3schools website to validate html5 and css
 
