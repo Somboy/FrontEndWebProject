@@ -4,6 +4,17 @@
  p{
 	
   }
+input[type=checkbox]:checked:before {
+  /* content: "\f146"; */
+  content: "\002296";
+}
+.answer,
+.answer p {
+  height: 0;
+  opacity: 0;
+  transition: all 0.2s;
+  overflow: hidden;
+}
  .topnav a {
 	display:block;  
   }
