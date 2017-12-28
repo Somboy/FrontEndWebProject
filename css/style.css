@@ -377,14 +377,12 @@ label h3 {
 	padding-right: 0.5em;
 
 }
-.prt1 {
-	width: 30%;
-    background: chocolate;
-}
-.campus-map img {
-	width: 30%;
-	display: block;
-	padding-top: 1%;
+
+.about h2 {
+	background-color: #ffffff;
+	color: #333;
+	padding: 6px;
+	margin: 20px -15px 22px;
 }
 #map {
     height: 400px;

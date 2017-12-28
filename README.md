@@ -82,6 +82,8 @@ when using chrome responsive tool nor did it work on tried Andriod and iphone sm
 
 6. ## References:
 
+* All the images on this Readme can be found here.
+https://www.flickr.com/photos/35776958@N05/?
 * Used GIMP for image manipulation
 https://www.gimp.org
 * Used 
