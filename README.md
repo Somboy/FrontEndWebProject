@@ -82,7 +82,7 @@ when using chrome responsive tool nor did it work on tried Android and iPhone sm
 -]how did I overcame this problem - After some Google searches I surprisingly found that those images which are not loading where .jpg file formats. I changed them to .png and problem solved.
 * The last major issue was that of the Google map not loading. worked fine on local but problem was when uploaded to Github.
 -] Took me sometime but at the end the solution was setting up api key correctly. see the steps below. 
-<img src="https://c1.staticflickr.com/5/4641/39356232101_78172f51fa_b.jpg" width="100%" alt="GoogleMapFix" />
+<img src="https://c1.staticflickr.com/5/4692/38649048134_e4b4d0cb25_b.jpg" width="100%" alt="GoogleMapFix" />
 <img src="https://c1.staticflickr.com/5/4644/24492260267_fb50d170e6_b.jpg" width="100%" alt="GoogleMapFix" />
 <img src="https://c1.staticflickr.com/5/4601/39356231591_eef22204f8_b.jpg" width="100%" alt="GoogleMapFix" />
 <img src="https://c1.staticflickr.com/5/4636/24492259767_62a5f51d49_b.jpg" width="100%" alt="GoogleMapFix" />
