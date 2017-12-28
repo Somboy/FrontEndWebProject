@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  
+  <title>Students Central</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
   <script>
   function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -13,220 +13,168 @@
     } else {
         x.className = "topnav";
     }
-}
+  }
   </script>
 </head>
 <body>
-	<header>
-		<nav>
-			<div class="topnav" id="myTopnav">
-			  <a class="active" href="index.html">Home</a>
-			  <a href="about.html">About</a>
-			  <a href="contact.html">Contact Us</a>
-			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-			</div>
-		</nav>
-		
-		<section class="slideshow">
-			 <img src="imgs/banner1.png" alt="bannerSlideshow" />
-			 <img src="imgs/banner2.png" alt="bannerSlideshow" />
-		</section>
-	</header>
-	
-<main class="wrapper">
-	<section class="row">
-		<section class="sec-3-dekstop sec-2-table">
-		  <h2><a href="#campus">Campus</a></h2>
-			<img src="imgs/campus.png" class="imgs">
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-		  <h2><a href="#money">Money</a></h2>
-		  <img src="imgs/money.png" class="imgs">
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-		  <h2><a href="#Advice">Advice</a></h2>
-		<img src="imgs/advice.png" class="imgs">
-		</section>
-
-		<section class="sec-3-dekstop sec-2-table">
-		  <h2><a href="#International">International</a></h2>
-		<img src="imgs/int.png" class="imgs">
-		</section>
-	  <section class="sec-3-dekstop sec-2-table">
-		<h2><a href="#the-city">The City</a></h2>
-		<img src="imgs/leic.png" class="imgs">
-	  </section>
-	  
-	  <section class="sec-3-dekstop sec-2-table">
-		<h2><a href="#fun">Fun</a></h2>
-		<img src="imgs/fun.png" class="imgs">
-	  </section>
-	  </section>
-
- 	<section id="campus">
-      <h2 class="top">Campus</h2>
-	  <P>Below you will find university campus map which is useful for new students to find their way </p>
-		<div id="map"></div>
-		  <script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyBT7I75DCEQlI04RDnr_uIfqt1POjZUOHo&callback=initMap"></script>
-		  <script src="script/js.js"></script> 
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact Us</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+    <section class="slideshow">
+      <img alt="bannerSlideshow" src="imgs/banner1.png"> <img alt="bannerSlideshow" src="imgs/banner2.png">
     </section>
-	
-	<section id="money">
+  </header>
+  <main class="wrapper">
+    <section class="row">
+      <section class="sec-3-dekstop sec-2-table">
+        <h2><a href="#campus">Campus</a></h2><img alt="" class="imgs" src="imgs/campus.png">
+      </section>
+      <section class="sec-3-dekstop sec-2-table">
+        <h2><a href="#money">Money</a></h2><img alt="" class="imgs" src="imgs/money.png">
+      </section>
+      <section class="sec-3-dekstop sec-2-table">
+        <h2><a href="#Advice">Advice</a></h2><img alt="" class="imgs" src="imgs/advice.png">
+      </section>
+      <section class="sec-3-dekstop sec-2-table">
+        <h2><a href="#International">International</a></h2><img alt="" class="imgs" src="imgs/int.png">
+      </section>
+      <section class="sec-3-dekstop sec-2-table">
+        <h2><a href="#the-city">The City</a></h2><img alt="" class="imgs" src="imgs/leic.png">
+      </section>
+      <section class="sec-3-dekstop sec-2-table">
+        <h2><a href="#fun">Fun</a></h2><img alt="" class="imgs" src="imgs/fun.png">
+      </section>
+    </section>
+    <section id="campus">
+      <h2 class="top">Campus</h2>
+      <p>Below you will find university campus map which is useful for new students to find their way</p>
+      <div id="map"></div>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyBg0fU0yeDJIbJgSLssWrjX60CgLbA5C7I&callback=initMap">
+      </script> 
+      <script src="script/js.js">
+      </script>
+    </section>
+    <section id="money">
       <h2 class="top">Money</h2>
-	  <P>During your time at University, you may need advice about an issue affecting your personal or student finances. These pages provide information and guidance on academic issues that you encounter while a student here at DMU University.</p>
-					<a href="#">Loans and Grants</a>
-					<a href="#">Disabled Students</a>
-					<a href="#">Managing Your Money</a>
-					<a href="#">Scholarships</a>
-					<a href="#">NHS Funding</a>
-					<a href="#">UK Placement Funding</a>
-					<a href="#">University Bursaries</a>
-					<a href="#">Student Parents</a>
-					<a href="#">Household Budget</a>
-	    </section>
-	
-	<section id="Advice">
+      <p>During your time at University, you may need advice about an issue affecting your personal or student finances. These pages provide information and guidance on academic issues that you encounter while a student here at DMU University.</p><a href="#">Loans and Grants</a> <a href="#">Disabled Students</a> <a href="#">Managing Your Money</a> <a href="#">Scholarships</a> <a href="#">NHS Funding</a> <a href="#">UK Placement Funding</a> <a href="#">University Bursaries</a> <a href="#">Student Parents</a> <a href="#">Household Budget</a>
+    </section>
+    <section id="Advice">
       <h2 class="top">Advice</h2>
-     <section class="row">
-		<section class="sec-3-dekstop sec-2-table">
-			<img src="imgs/housing.jpg" class="imgs">
-			<h2><a href="#">Housing</a></h2>
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-		  <img src="imgs/Employment.jpg" class="imgs">
-		  <h2><a href="#">Employment</a></h2>
-		</section>
-		<section class="sec-3-dekstop sec-6-table">
-		<img src="imgs/Academic.jpg" class="imgs">
-		<h2><a href="#">Academic</a></h2>
-		</section>
-		</section>
-	</section>
-	
-	<section id="International">
+      <section class="row">
+        <section class="sec-3-dekstop sec-2-table">
+          <img alt="" class="imgs" src="imgs/housing.jpg">
+          <h2><a href="#">Housing</a></h2>
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <img alt="" class="imgs" src="imgs/Employment.jpg">
+          <h2><a href="#">Employment</a></h2>
+        </section>
+        <section class="sec-3-dekstop sec-6-table">
+          <img alt="" class="imgs" src="imgs/Academic.jpg">
+          <h2><a href="#">Academic</a></h2>
+        </section>
+      </section>
+    </section>
+    <section id="International">
       <h2 class="top">International</h2>
-	  <P>Hundreds of thousands of international students study in the UK each year, making studying in the UK the number two choice for international students in the world, second only to the USA. For students worldwide that would like an English-language education, what better place to study than the country that invented the language?</p>
-	  <section class="row">
-		<section class="sec-3-dekstop sec-2-table">
-			
-			<label for="q01"><h2>About the UK</h2></label>
-			<input type="checkbox" id="q01">
-			<div class="answer">
-			<P>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
-			</div>
-	</section>
-		<section class="sec-3-dekstop sec-2-table">
-			<h2>Why Study in the UK</h2>
-			<P>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-			<h2>UK Education System</h2>
-			<P>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-			<h2>Financial Aid for the UK</h2>
-			<P>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-			<h2>Studying/Living in the UK</h2>
-			<P>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-			<h2>After Graduation</h2>
-			<P>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
-		</section>
-	</section>
-	</section>
-	  
-	<section id="the-city">
+      <p>Hundreds of thousands of international students study in the UK each year, making studying in the UK the number two choice for international students in the world, second only to the USA. For students worldwide that would like an English-language education, what better place to study than the country that invented the language?</p>
+      <section class="row">
+        <section class="sec-3-dekstop sec-2-table">
+          <h2><label for="q01">About the UK</label></h2><input id="q01" type="checkbox">
+          <div class="answer">
+            <p>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
+          </div>
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <h2>Why Study in the UK</h2>
+          <p>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <h2>UK Education System</h2>
+          <p>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <h2>Financial Aid for the UK</h2>
+          <p>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <h2>Studying/Living in the UK</h2>
+          <p>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <h2>After Graduation</h2>
+          <p>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
+        </section>
+      </section>
+    </section>
+    <section id="the-city">
       <h2 class="top">City</h2>
-	  <section class="row">
-		<section class="sec-2-dekstop sec-2-table">
-			<img src="imgs/whatsOn.png" class="imgs">
-			<p>Here you can find all the current<br>events in Leicester Eat and Drink.<br>Here you can find all the current<br>events in Leicester Eat and Drink.</p>
-			<p>Here you can find all the current events in Leicester Eat and Drink. Here you can find all the current events in Leicester Eat and Drink.</p>
-			<p>Here you can find all the current events in Leicester Eat and Drink. Here you can find all the current events in Leicester Eat and Drink.</p>
-			<p>Here you can find all the current events in Leicester Eat and Drink. Here you can find all the current events in Leicester Eat and Drink.</p>
-			
-		</section>
-		<section class="sec-2-dekstop sec-2-table">
-		  <img src="imgs/LeicMarket.jpg" class="imgs">		
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-		<p>Description of event</p>
-		<img src="imgs/Music.jpg" class="imgs">
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-		<p>Description of event</p>
-		<img src="imgs/Music.jpg" class="imgs">
-		</section>
-		<section class="sec-3-dekstop sec-2-table">
-		<p>Description of event</p>
-		<img src="imgs/Music.jpg" class="imgs">
-		</section>
-		
-</section>
-</section>
-
-<section id="fun">
+      <section class="row">
+        <section class="sec-2-dekstop sec-2-table">
+          <img alt="" class="imgs" src="imgs/whatsOn.png">
+          <p>Here you can find all the current<br>
+          events in Leicester Eat and Drink.<br>
+          Here you can find all the current<br>
+          events in Leicester Eat and Drink.</p>
+          <p>Here you can find all the current events in Leicester Eat and Drink. Here you can find all the current events in Leicester Eat and Drink.</p>
+          <p>Here you can find all the current events in Leicester Eat and Drink. Here you can find all the current events in Leicester Eat and Drink.</p>
+          <p>Here you can find all the current events in Leicester Eat and Drink. Here you can find all the current events in Leicester Eat and Drink.</p>
+        </section>
+        <section class="sec-2-dekstop sec-2-table">
+          <img alt="" class="imgs" src="imgs/LeicMarket.jpg">
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <p>Description of event</p><img alt="" class="imgs" src="imgs/Music.jpg">
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <p>Description of event</p><img alt="" class="imgs" src="imgs/Music.jpg">
+        </section>
+        <section class="sec-3-dekstop sec-2-table">
+          <p>Description of event</p><img alt="" class="imgs" src="imgs/Music.jpg">
+        </section>
+      </section>
+    </section>
+    <section id="fun">
       <h2 class="top">Fun</h2>
-	  <ol>
-		  <li>Football games!</li>
-		  <P>The tradition and spirit surrounding Notre Dame football is known nationwide, but there's nothing quite like taking part of the fun in the student section. Between the songs, cheers, and chants, there's nothing better than standing next to your friends cheering for an Irish win!</p>
-		  <li>Playing on the Quads!</li>
-		  <P>Notre Dame is one of the most beautifully landscaped schools in the country, in my biased opinion. There are several large quads throughout the campus that are perfect for playing with a frisbee, throwing a ball around, bringing study-time outside, or just lounging around. As long as the weather participates, you can find tons of Notre Dame students outside enjoying the quads!</p>
-		  <li>Clubs!</li>
-		  <P>There are hundreds of clubs just waiting for students to sign up for. You can have your choice, whether it's Spanish or Sailing, Cupcakes or Catholic Traditions, there's a club for everyone.</p>
-		  <li>Food!</li>
-		  <P>There are hundreds of clubs just waiting for students to sign up for. You can have your choice, whether it's Spanish or Sailing, Cupcakes or Catholic Traditions, there's a club for everyone.</p>
-	 </ol> 
-	  
-</section>
- 
-
-	
- </main>
- <footer>
- 
- <section class="footer-links">
-<p>Site - Map </p>
-					<a href="#">Home |</a>
-					<a href="#">About |</a>
-					<a href="#">Contact us |</a>
-					<a href="#">Campus |</a>
-					<a href="#">Money |</a>
-					<a href="#">Advice |</a>
-					<a href="#">International |</a>
-					<a href="#">The-city |</a>
-					<a href="#">Fun</a>
-					
-				</section>
-			
-				<section class="social-media">
-				<p>Follow Us On Social - Media </p>	
-	  <section class="row">
-		<a href="http://facebook.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/fbicon.png" /><h2>Facebook</h2>
-			</section>
-		<a>
-		<a href="http://twitter.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/twicon.png" /><h2>Twitter</h2>
-			</section>
-		</a>
-		<a href="http://google.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/gglicon.png" /><h2>Google</h2>
-			</section>
-		</a>
-		<a href="http://github.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/ghicon.png" /><h2>Github</h2>
-			</section>
-		</a>
-	</section>
-	</section>
- </footer>
+      <h3>Football games!</h3>
+      <p>The tradition and spirit surrounding Notre Dame football is known nationwide, but there's nothing quite like taking part of the fun in the student section. Between the songs, cheers, and chants, there's nothing better than standing next to your friends cheering for an Irish win!</p>
+      <h3>Playing on the Quads!</h3>
+      <p>Notre Dame is one of the most beautifully landscaped schools in the country, in my biased opinion. There are several large quads throughout the campus that are perfect for playing with a frisbee, throwing a ball around, bringing study-time outside, or just lounging around. As long as the weather participates, you can find tons of Notre Dame students outside enjoying the quads!</p>
+      <h3>Clubs!</h3>
+      <p>There are hundreds of clubs just waiting for students to sign up for. You can have your choice, whether it's Spanish or Sailing, Cupcakes or Catholic Traditions, there's a club for everyone.</p>
+      <h3>Food!</h3>
+      <p>There are hundreds of clubs just waiting for students to sign up for. You can have your choice, whether it's Spanish or Sailing, Cupcakes or Catholic Traditions, there's a club for everyone.</p>
+    </section>
+  </main>
+  <footer>
+    <section class="footer-links">
+      <p>Site - Map</p><a href="#">Home |</a> <a href="#">About |</a> <a href="#">Contact us |</a> <a href="#">Campus |</a> <a href="#">Money |</a> <a href="#">Advice |</a> <a href="#">International |</a> <a href="#">The-city |</a> <a href="#">Fun</a>
+    </section>
+    <section class="social-media">
+      <p>Follow Us On Social - Media</p>
+      <section class="row">
+        <a href="http://facebook.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/fbicon.png">
+          <h2>Facebook</h2>
+        </section></a> <a href="http://twitter.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/twicon.png">
+          <h2>Twitter</h2>
+        </section></a> <a href="http://google.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/gglicon.png">
+          <h2>Google</h2>
+        </section></a> <a href="http://github.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/ghicon.png">
+          <h2>Github</h2>
+        </section></a>
+      </section>
+    </section>
+  </footer>
 </body>
 </html>
