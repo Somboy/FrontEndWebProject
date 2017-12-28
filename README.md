@@ -75,10 +75,18 @@ I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
 
 5. ## Critical review:
 Problems when developing the site that I came across were:
-- website not being responsive although I used all the breakpoints correctly. Apparently, it worked by resizing the browser window but not
-when using chrome responsive tool nor did it work on tried Andriod and iphone smartphones.
-### how did I overcame this problem
--well I tried many things but ended up using rows and columns for the main content area.
+* website not being responsive although I used all the breakpoints correctly. Apparently, it worked by resizing the browser window but not
+when using chrome responsive tool nor did it work on tried Android and iPhone smart-phones.
+-]how did I overcame this problem -well I tried many things but ended up using rows and columns for the main content area.
+* another problem was images not loading up on Github, In the console I was getting errors saying that browser couldn't load the images with error 41
+-]how did I overcame this problem - After some Google searches I surprisingly found that those images which are not loading where .jpg file formats. I changed them to .png and problem solved.
+* The last major issue was that of the Google map not loading. worked fine on local but problem was when uploaded to Github.
+-] Took me sometime but at the end the solution was setting up api key correctly. see the steps below. 
+<img src="https://c1.staticflickr.com/5/4641/39356232101_78172f51fa_b.jpg" width="100%" alt="GoogleMapFix" />
+<img src="https://c1.staticflickr.com/5/4644/24492260267_fb50d170e6_b.jpg" width="100%" alt="GoogleMapFix" />
+<img src="https://c1.staticflickr.com/5/4601/39356231591_eef22204f8_b.jpg" width="100%" alt="GoogleMapFix" />
+<img src="https://c1.staticflickr.com/5/4636/24492259767_62a5f51d49_b.jpg" width="100%" alt="GoogleMapFix" />
+
 
 6. ## References:
 
