@@ -99,6 +99,7 @@ when using chrome responsive tool nor did it work on tried Android and iPhone sm
 https://www.flickr.com/photos/35776958@N05/?
 * Used GIMP for image manipulation
 https://www.gimp.org
+* code cleaning (https://www.10bestdesign.com/dirtymarkup/css/)
 * Used 
 W3schools(https://validator.w3.org/) for code validation, such as html and css
 * Credit to some of the code to 
