@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<!-- the head section contains page title and css style links -->
   <title>Students Central</title>
+  <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-  }
-  </script>
+  <link href="css/responsive.css" rel="stylesheet"> 
 </head>
 <body>
+<!-- Body contains the header, main content area and a footer -->
   <header>
+  <!-- contains navigation menus and site banner -->
     <nav>
       <div class="topnav" id="myTopnav">
-        <a class="active" href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact Us</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        <a class="active" href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact Us</a> <a class="icon" id="menu_icon">&#9776;</a>
       </div>
     </nav>
+	<!-- this is the banner, as a slide show using only css. images are repeated to twice to stop showing white background in between transitions -->
     <section class="slideshow">
-      <img alt="bannerSlideshow" src="imgs/banner1.png"> <img alt="bannerSlideshow" src="imgs/banner2.png">
+      <img alt="bannerSlideshow" src="imgs/banner1.png">
+	  <img alt="bannerSlideshow" src="imgs/banner2.png">
+	  <img alt="bannerSlideshow" src="imgs/banner1.png">
+	  <img alt="bannerSlideshow" src="imgs/banner2.png">
     </section>
   </header>
+  <!-- this is where all the contents is located, broken down into boxes using sections -->
   <main class="wrapper">
     <section class="row">
       <section class="sec-3-dekstop sec-2-table">
@@ -48,6 +47,7 @@
         <h2><a href="#fun">Fun</a></h2><img alt="" class="imgs" src="imgs/fun.png">
       </section>
     </section>
+	<!-- below I am using smooth slide down css only to direct user to the right content -->
     <section id="campus">
       <h2 class="top">Campus</h2>
       <p>Below you will find university campus map which is useful for new students to find their way</p>
@@ -59,15 +59,46 @@
       </script>
     </section>
 	<section class="bk2top" >
-	<a href="index.html"><img alt="" class="imgs" src="imgs/bk2top.png"></a>
+	<a href="index.html"><span class="arrow-up"></span></a>
 	</section>
-    <section id="money">
+   <section id="money">
       <h2 class="top">Money</h2>
-      <p>During your time at University, you may need advice about an issue affecting your personal or student finances. These pages provide information and guidance on academic issues that you encounter while a student here at DMU University.</p><a href="#">Loans and Grants</a> <a href="#">Disabled Students</a> <a href="#">Managing Your Money</a> <a href="#">Scholarships</a> <a href="#">NHS Funding</a> <a href="#">UK Placement Funding</a> <a href="#">University Bursaries</a> <a href="#">Student Parents</a> <a href="#">Household Budget</a>
+      <p>During your time at University, you may need advice about an issue affecting your personal or student finances. These pages provide information and guidance on academic issues that you encounter while a student here at DMU University.<section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/moneygrant.png" /><a href="#">Loans and Grants</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/disabled.png" />
+	  <a href="#">Disabled Students</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/mgmoney.png" />
+	  <a href="#">Managing Your Money</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/scholarship.jpg" />
+	  <a href="#">Scholarships</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/nhsfunding.png" />
+	  <a href="#">NHS Funding</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/placementfunding.png" />
+	  <a href="#">UK Placement Funding</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/bursaries.png" />
+	  <a href="#">University Bursaries</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/parents.jpg" />
+	  <a href="#">Student Parents</a>
+	  </section>
+	  <section class="sec-3-dekstop sec-2-table">
+	  <img alt="" src="imgs/hshold.png" />
+	  <a href="#">Household Budget</a>
+	  </section>
     </section>
-	<section class="bk2top" >
-	<a href="index.html"><img alt="" class="imgs" src="imgs/bk2top.png"></a>
-	</section>
     <section id="Advice">
       <h2 class="top">Advice</h2>
       <section class="row">
@@ -86,44 +117,57 @@
       </section>
     </section>
 	<section class="bk2top" >
-	<a href="index.html"><img alt="" class="imgs" src="imgs/bk2top.png"></a>
+	<a href="index.html"><span class="arrow-up"></span></a>
 	</section>
     <section id="International">
       <h2 class="top">International</h2>
       <p>Hundreds of thousands of international students study in the UK each year, making studying in the UK the number two choice for international students in the world, second only to the USA. For students worldwide that would like an English-language education, what better place to study than the country that invented the language?</p>
       <section class="row">
-        <section class="sec-3-dekstop sec-2-table">
+        <section class="sec-3-dekstop sec-3-table">
           <h2><label for="q01">About the UK</label></h2><input id="q01" type="checkbox">
           <div class="answer">
             <p>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
           </div>
         </section>
-        <section class="sec-3-dekstop sec-2-table">
-		  <h2>Why Study in the UK</h2>
+        <section class="sec-3-dekstop sec-3-table">
+ 
+		  <h2><label for="q02">Why Study in the UK</label></h2><input id="q02" type="checkbox">
+          <div class="answer">
           <p>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
+        </div>
+		</section>
+        <section class="sec-3-dekstop sec-3-table">
+          <h2><label for="q03">UK Education System</label></h2><input id="q03" type="checkbox">
+          <div class="answer">
+		  <p>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
+		  </div>
         </section>
-		<section class="sec-3-dekstop sec-2-table">
-          <h2>UK Education System</h2>
-          <p>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
+		</section>
+		<section class="row">
+        <section class="sec-3-dekstop sec-3-table">
+          <h2><label for="q04">Financial Aid for the UK</label></h2><input id="q04" type="checkbox">
+           <div class="answer">
+		  <p>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
+		  </div>
         </section>
-        <section class="sec-3-dekstop sec-2-table">
-          <h2>Financial Aid for the UK</h2>
-          <p>Learn about the origins of the United Kingdom, a country rich in history and culture and find out how the country we know today was formed over many years through the union of England, Scotland, Wales and Northern Ireland.</p>
+        <section class="sec-3-dekstop sec-3-table">
+          <h2><label for="q05">Studying/Living in the UK</label></h2><input id="q05" type="checkbox">
+          <div class="answer">
+		  <p>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
+		  </div>
         </section>
-        <section class="sec-3-dekstop sec-2-table">
-          <h2>Studying/Living in the UK</h2>
-          <p>The UK is one of the most popular destinations in the world to study abroad, but why is it so popular - learn more about what the UK has to offer international students.</p>
-        </section>
-        <section class="sec-3-dekstop sec-2-table">
-          <h2>After Graduation</h2>
-          <p>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
+        <section class="sec-3-dekstop sec-3-table">
+          <h2><label for="q06">After Graduation</label></h2><input id="q06" type="checkbox">
+          <div class="answer">
+		  <p>Recognized around the world as a world class system, the UK's education system is comprehensive and adaptable. This section also has vital information on how to enter programs in the UK such as GCSE, A-Levels and degree programs.</p>
+		  </div>
         </section>
       </section>
     </section>
-<section class="bk2top" >
-	<a href="index.html"><img alt="" class="imgs" src="imgs/bk2top.png"></a>
+	<section class="bk2top" >
+	<a href="index.html"><span class="arrow-up"></span></a>
 	</section>
-    <section id="the-city">
+   <section id="the-city">
       <h2 class="top">City</h2>
       <section class="row">
         <section class="sec-2-dekstop sec-2-table">
@@ -136,19 +180,21 @@
         <section class="sec-2-dekstop sec-2-table">
           <img alt="" class="imgs" src="imgs/LeicMarket.jpg">
         </section>
-        <section class="sec-3-dekstop sec-2-table">
+		</section>
+		<section class="row">
+        <section class="sec-3-dekstop sec-3-table">
           <p>Description of event</p><img alt="" class="imgs" src="imgs/Music.jpg">
         </section>
-        <section class="sec-3-dekstop sec-2-table">
+        <section class="sec-3-dekstop sec-3-table">
           <p>Description of event</p><img alt="" class="imgs" src="imgs/Music.jpg">
         </section>
-        <section class="sec-3-dekstop sec-2-table">
+        <section class="sec-3-dekstop sec-3-table">
           <p>Description of event</p><img alt="" class="imgs" src="imgs/Music.jpg">
         </section>
       </section>
     </section>
-<section class="bk2top" >
-	<a href="index.html"><img alt="" class="imgs" src="imgs/bk2top.png"></a>
+	<section class="bk2top" >
+	<a href="index.html"><span class="arrow-up"></span></a>
 	</section>
     <section id="fun">
       <h2 class="top">Fun</h2>
@@ -162,9 +208,10 @@
       <p>There are hundreds of clubs just waiting for students to sign up for. You can have your choice, whether it's Spanish or Sailing, Cupcakes or Catholic Traditions, there's a club for everyone.</p>
     </section>
 	<section class="bk2top" >
-	<a href="index.html"><img alt="" class="imgs" src="imgs/bk2top.png"></a>
+	<a href="index.html"><span class="arrow-up"></span></a>
 	</section>
   </main>
+  <!-- lastly, footer section which hosts site-map and social media links -->
   <footer>
     <section class="footer-links">
       <p>Site - Map</p><a href="#">Home |</a> <a href="#">About |</a> <a href="#">Contact us |</a> <a href="#">Campus |</a> <a href="#">Money |</a> <a href="#">Advice |</a> <a href="#">International |</a> <a href="#">The-city |</a> <a href="#">Fun</a>
@@ -192,5 +239,6 @@
       </section>
     </section>
   </footer>
+<script src="script/menu.js"></script>
 </body>
 </html>

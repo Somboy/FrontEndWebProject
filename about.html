@@ -1,86 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-  </script>
-</head>
+<!-- the head section contains page title and css style links -->
+  <title>Students Central</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head><!-- index page template is used on this page for site consistence -->
 <body>
-	<header>
-		<nav>
-			<div class="topnav" id="myTopnav">
-			  <a href="index.html">Home</a>
-			  <a class="active" href="about.html">About</a>
-			  <a href="contact.html">Contact Us</a>
-			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-			</div>
-		</nav>
-	</header>
-	
-<main class="wrapper">
-	<section class="about">
-		<h2>Who are Students Central?</p>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	    <p>List of what we do?</p>
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact Us</a> <a class="icon" id="menu_icon">&#9776;</a>
+      </div>
+    </nav>
+  </header><!-- included in the content area is one section containing only text -->
+  <main class="wrapper">
+    <section class="about">
+      <h2>Who are Students Central?</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>List of what we do?</p>
+      <ul>
+        <li>simply dummy text of the printing</li>
+        <li>simply dummy text of the printing</li>
+        <li>simply dummy text of the printing</li>
 		<li>simply dummy text of the printing</li>
-		<li>simply dummy text of the printing</li>
-		<li>simply dummy text of the printing</li>
-		<li>simply dummy text of the printing</li>
-	  </section>
- </main>
-	<footer>
- 
- <section class="footer-links">
-<p>Site - Map </p>
-					<a href="#">Home |</a>
-					<a href="#">About |</a>
-					<a href="#">Contact us |</a>
-					<a href="#">Campus |</a>
-					<a href="#">Money |</a>
-					<a href="#">Advice |</a>
-					<a href="#">International |</a>
-					<a href="#">The-city |</a>
-					<a href="#">Fun</a>
-					
-				</section>
-			
-				<section class="social-media">
-				<p>Follow Us</p>	
-	  <section class="row">
-		<a href="http://facebook.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/fbicon.png" /><h2>Facebook</h2>
-			</section>
-		<a>
-		<a href="http://twitter.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/twicon.png" /><h2>Twitter</h2>
-			</section>
-		</a>
-		<a href="http://google.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/gglicon.png" /><h2>Google</h2>
-			</section>
-		</a>
-		<a href="http://github.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/ghicon.png" /><h2>Github</h2>
-			</section>
-		</a>
-	</section>
-	</section>
- </footer>
-	
+        <li>simply dummy text of the printing</li>
+        <li>simply dummy text of the printing</li>
+        <li>simply dummy text of the printing</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section class="footer-links">
+      <p>Site - Map</p><a href="#">Home |</a> <a href="#">About |</a> <a href="#">Contact us |</a> <a href="#">Campus |</a> <a href="#">Money |</a> <a href="#">Advice |</a> <a href="#">International |</a> <a href="#">The-city |</a> <a href="#">Fun</a>
+    </section>
+    <section class="social-media">
+      <p>Follow Us</p>
+      <section class="row">
+        <a href="http://facebook.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/fbicon.png">
+          <h2>Facebook</h2>
+        </section></a> <a href="http://twitter.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/twicon.png">
+          <h2>Twitter</h2>
+        </section></a> <a href="http://google.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/gglicon.png">
+          <h2>Google</h2>
+        </section></a> <a href="http://github.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/ghicon.png">
+          <h2>Github</h2>
+        </section></a>
+      </section>
+    </section>
+  </footer>
+  <script src="script/menu.js"></script> 
 </body>
 </html>

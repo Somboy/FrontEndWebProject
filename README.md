@@ -73,7 +73,11 @@ I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
   3. user experience: colleagues and family members to navigate and give feedback for accessibility.
 Asked three of university colleagues to navigate and usability test my website. Similarly, two of my family members have used it and the feedback was really good. I have made changes to their suggestions such as moving social media links from the middle to the bottom of the website.   
 * ### code validation: used W3schools website to validate html5 and css
-
+I used w3schools code validation tools. fixed all of the errors that came up and my code has finally been successful. However, some warnings are detected such as missing h2 which i don't want to include. See results below.
+###html validation
+<img src="https://c1.staticflickr.com/5/4689/38499865805_ed4f4dc8bd_b.jpg" width="100%" alt="validation" />
+###css validation
+<img src="https://c1.staticflickr.com/5/4639/38668985794_7be21a3caa_b.jpg" width="100%" alt="validation" />
 5. ## Critical review:
 Problems when developing the site that I came across were:
 * website not being responsive although I used all the breakpoints correctly. Apparently, it worked by resizing the browser window but not

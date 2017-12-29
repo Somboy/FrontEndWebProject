@@ -20,6 +20,7 @@ html {
 .wrapper {
   width: 100%;
   margin: 0 auto;
+  margin-top: 2%;
 }
 .header {
   background-color: #9933cc;
@@ -48,8 +49,11 @@ html {
 /* Change the color of links on hover */
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #eee;
   color: black;
+}
+.topnav .icon {
+  cursor: pointer;
 }
 /* Add an active class to highlight the current page */
 
@@ -102,12 +106,15 @@ p {}
   height: 150px;
   overflow: hidden;
   position: relative;
+  background: #ddd;
 }
+/* banner slide show style */
+
 .slideshow img {
   width: 100%;
   height: 150px;
   position: absolute;
-  animation: round 10s infinite;
+  animation: round 16s infinite;
   opacity: 0;
 }
 @keyframes round {
@@ -118,22 +125,21 @@ p {}
     opacity: 0;
   }
 }
-img:nth-child(1) {
-  animation-delay: 10s;
+.slideshow img:nth-child(1) {
+  animation-delay: 12s;
 }
-img:nth-child(2) {
-  animation-delay: 6s;
+.slideshow img:nth-child(2) {
+  animation-delay: 8s;
 }
-img:nth-child(3) {
-  animation-delay: 2s;
+.slideshow img:nth-child(3) {
+  animation-delay: 4s;
 }
-img:nth-child(4) {
+.slideshow img:nth-child(4) {
   animation-delay: 0s;
 }
 section {
   width: 100%;
 }
-main {}
 main h2 {
   background-color: #0b8c96;
   color: #fff;
@@ -143,20 +149,20 @@ main h2 {
 }
 main a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 main a:hover {
   text-decoration: underline;
 }
 main .row section {
   background-color: #eec981;
-  border: 15px solid #fff;
+  border: 15px solid #ffffff;
   border-radius: 35px;
 }
 .social-media {
   width: 30%;
   margin: 0 auto;
-  background-color: #ff;
+  background-color: #000000;
   text-align: center;
   font-size: 12px;
   padding: 15px;
@@ -177,6 +183,8 @@ main .row section {
   background: rgba(200, 200, 200, 0.96);
   color: #fff;
 }
+/* contact form styles */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -205,11 +213,17 @@ input[type=submit]:hover {
 }
 form {
   background: #467ca9;
+  padding: 2%;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 0%;
   text-align: left;
   border-radius: 2%;
+}
+#error_fname, #error_title, #error_comment {
+  color: #ff0000;
+  text-align: center;
+  font-size: 1.3em;
 }
 .divform {
   width: 100%;
@@ -218,9 +232,17 @@ form {
   text-align: left;
   background: #467ca9;
   margin-top: 10%;
+  margin-bottom: 10%;
+}
+#submit {
+  width: 15%;
+  height: 41px;
+  background: #3dc73d;
+  color: #FFFFFF;
+  border: none;
 }
 #campus {
-  margin-top: 7%;
+  margin-top: 2%;
   padding: 3%;
   background: #ddd;
 }
@@ -230,7 +252,16 @@ form {
 #money {
   margin-top: 3%;
   padding: 3%;
-  background: #ddd;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  overflow: auto;
+  text-align: center;
+}
+#money section {
+  width: 33%;
+}
+#money img {
+  width: 100px;
 }
 #money a {
   color: #2f00bc;
@@ -279,39 +310,35 @@ form {
   background-color: #ddd;
 }
 #the-city .imgs {}
-#the-city .imgs :hover {
+#the-city .imgs:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
 #fun {
-  margin-top: 3%;
+  margin-top: 2%;
   padding: 3%;
   background: #ddd;
 }
 /* CSS only show hide */
 
-input {
+input[type=checkbox] {
   visibility: hidden;
 }
 input[type=checkbox]:checked+div {
   transition: all 1s;
   height: auto;
-  opacity: 1;
+  display: block;
 }
 input[type=checkbox]:checked+div p {
   height: auto;
-  opacity: 1;
+  display: block;
 }
-input:before {
-  /* font-family: FontAwesome; */
-  /* content: "\f0fe"; */
+input[type=checkbox]:before {
   content: "\002295";
   position: absolute;
-  left: 15px;
   visibility: visible;
 }
 input[type=checkbox]:checked:before {
-  /* content: "\f146"; */
   content: "\002296";
 }
 label h3 {
@@ -321,16 +348,12 @@ label h3 {
 }
 .answer, .answer p {
   height: 0;
-  opacity: 0;
+  display: none;
   transition: all 0.2s;
   overflow: hidden;
 }
 /* CSS only show hide */
-.bk2top {
-	width: 15%;
-	margin-left: 42%;
-	position: relative;
-}
+
 .top {
   background-color: #0b8c96;
   color: #fff;
@@ -343,21 +366,53 @@ label h3 {
   line-height: 1.75em;
   padding-right: 0.5em;
 }
+/* back to top arrow */
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+
 .about h2 {
   background-color: #ffffff;
   color: #333;
   padding: 6px;
   margin: 20px -15px 22px;
 }
+.bk2top {
+  padding: 1%;
+}
+.bk2top span {
+  color: #000;
+  position: absolute;
+  left: 86%;
+}
+.bk2top img {
+  width: 10%;
+  position: absolute;
+  left: 80%;
+}
+/* map style */
+
 #map {
   height: 400px;
 }
+/* footer style */
+
 footer {
-  background: #403b3bbd;
+  background: #000000;
+  padding: 1%;
   width: 100%;
 }
 footer p {
   font-size: 19px;
+  color: #FFFFFF;
+}
+footer h2 {
+  color: #FFFFFF;
 }
 .footer-links {
   text-align: center;

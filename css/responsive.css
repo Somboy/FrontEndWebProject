@@ -10,6 +10,9 @@
   .topnav a.icon {
     display: none;
   }
+  .topnav.responsive a {
+    float: left;
+  }
   .sec-4-table {
     width: 25%;
   }
@@ -31,9 +34,9 @@
   .social-media h2 {
     display: block;
     background: none;
-    color: #000;
+    color: #FFFFFF;
     padding: 0px;
-    margin: 0px;
+    margin: 5px 0px;
     border: none;
   }
   .divform {
@@ -44,32 +47,67 @@
     border-radius: 8%;
     padding: 4%;
   }
-  
-@media only screen and (min-width: 960px) {
-    /* For desktop: */
-    .sec-4-dekstop {
-      width: 25%;
-    }
-    .sec-3-dekstop {
-      width: 33.33%;
-    }
-    .sec-2-dekstop {
-      width: 50%;
-    }
-    .sec-1-dekstop {
-      width: 100%;
-    }
-    .wrapper {
-      width: 80%;
-    }
-    .slideshow {
-      height: 360px
-    }
-    .slideshow img {
-      height: 360px;
-    }
-    footer {}
-    .divform {
-      width: 50%;
-    }
+  #money section {
+    width: 15%;
   }
+  input[type=checkbox]:before {
+    content: "";
+  }
+  input[type=checkbox]:checked:before {
+    content: "";
+  }
+  .answer, .answer p {
+    height: 0;
+    display: inline;
+    transition: all 0.2s;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* For desktop: */
+  .sec-4-dekstop {
+    width: 25%;
+  }
+  .sec-3-dekstop {
+    width: 33.33%;
+  }
+  .sec-2-dekstop {
+    width: 50%;
+  }
+  .sec-1-dekstop {
+    width: 100%;
+  }
+  .topnav.responsive a {
+    float: left;
+  }
+  .wrapper {
+    width: 80%;
+  }
+  .slideshow {
+    height: 360px
+  }
+  .slideshow img {
+    height: 360px;
+  }
+  #money section {
+    width: 33%;
+  }
+  input[type=checkbox]:before {
+    content: "";
+  }
+  input[type=checkbox]:checked:before {
+    content: "";
+  }
+  .answer, .answer p {
+    height: 0;
+    display: inline;
+    transition: all 0.2s;
+    overflow: hidden;
+  }
+  footer h2 {
+    color: #FFFFFF;
+  }
+  .divform {
+    width: 50%;
+  }
+}

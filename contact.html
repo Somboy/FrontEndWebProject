@@ -1,97 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-  </script>
-</head>
+<!-- the head section contains page title and css style links -->
+  <title>Students Central</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head><!-- index page template is used on this page for site consistence -->
+<!-- find comments for anything that is different below -->
 <body>
-	<header>
-		<nav>
-			<div class="topnav" id="myTopnav">
-			  <a href="index.html">Home</a>
-			  <a  href="about.html">About</a>
-			  <a class="active" href="contact.html">Contact Us</a>
-			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-			</div>
-		</nav>
-	</header>
-	
-<main class="wrapper">
-	<section class="divform">
-		<form class="form">
-			<label for="fname"> Full Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">		
-			<label for="emp-title">Staff / Student</label>
-			<select id="emp-title" name="emp-title">
-			<option value="blank"></option>
-			<option value="student">Student</option>
-			  <option value="staff">Staff</option>  
-			</select>
-
-			<label for="subject">Comments</label>
-			<textarea id="subject" name="subject" placeholder="Your comment.." 	style="height:200px"></textarea>
-
-			<input type="submit" value="Send">
-        </form>
-	  </section>
-	  <p>Please note that this form is only used here as an example to show ability of information display.<br>
-	  Therefore, it doesn't validate or allows data submission. Thank You!</p>
-	  
- </main>
-	<footer>
- 
- <section class="footer-links">
-<p>Site - Map </p>
-					<a href="#">Home |</a>
-					<a href="#">About |</a>
-					<a href="#">Contact us |</a>
-					<a href="#">Campus |</a>
-					<a href="#">Money |</a>
-					<a href="#">Advice |</a>
-					<a href="#">International |</a>
-					<a href="#">The-city |</a>
-					<a href="#">Fun</a>
-					
-				</section>
-			
-				<section class="social-media">
-				<p>Follow Us</p>	
-	  <section class="row">
-		<a href="http://facebook.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/fbicon.png" /><h2>Facebook</h2>
-			</section>
-		<a>
-		<a href="http://twitter.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/twicon.png" /><h2>Twitter</h2>
-			</section>
-		</a>
-		<a href="http://google.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/gglicon.png" /><h2>Google</h2>
-			</section>
-		</a>
-		<a href="http://github.com" target="_blank">
-			<section class="sec-4-dekstop sec-2-table">
-				<img src="imgs/ghicon.png" /><h2>Github</h2>
-			</section>
-		</a>
-	</section>
-	</section>
- </footer>
-	
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact Us</a> <a class="icon" id="menu_icon">&#9776;</a>
+      </div>
+    </nav>
+  </header><!-- In the contents area, this page has a simple contact form -->
+  <main class="wrapper">
+    <section class="divform">
+      <form class="form">
+        <label for="fname">Full Name</label> <input id="fname" name="firstname" placeholder="Your name.." type="text"> <label for="emp_title">Staff / Student</label> <select id="emp_title" name="emp_title">
+          <option value="student" selected>
+            Student
+          </option>
+          <option value="staff">
+            Staff
+          </option>
+        </select> <label for="subject">Comments</label> 
+        <textarea id="subject" name="subject" placeholder="Your comment.." style="height:200px"></textarea> <input id="submit" onsubmit="return false" type="button" value="Send">
+      </form>
+    </section><!-- user prompt msgs -->
+    <p id="error_fname"></p>
+    <p id="error_title"></p>
+    <p id="error_comment"></p>
+  </main>
+  <footer>
+    <section class="footer-links">
+      <p>Site - Map</p><a href="#">Home |</a> <a href="#">About |</a> <a href="#">Contact us |</a> <a href="#">Campus |</a> <a href="#">Money |</a> <a href="#">Advice |</a> <a href="#">International |</a> <a href="#">The-city |</a> <a href="#">Fun</a>
+    </section>
+    <section class="social-media">
+      <p>Follow Us</p>
+      <section class="row">
+        <a href="http://facebook.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/fbicon.png">
+          <h2>Facebook</h2>
+        </section></a> <a href="http://twitter.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/twicon.png">
+          <h2>Twitter</h2>
+        </section></a> <a href="http://google.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/gglicon.png">
+          <h2>Google</h2>
+        </section></a> <a href="http://github.com" target="_blank">
+        <section class="sec-4-dekstop sec-2-table">
+          <img alt="" src="imgs/ghicon.png">
+          <h2>Github</h2>
+        </section></a>
+      </section>
+    </section>
+  </footer>
+  <script src="script/menu.js"></script> 
 </body>
 </html>
