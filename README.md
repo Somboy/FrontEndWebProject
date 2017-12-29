@@ -77,7 +77,9 @@ I used w3schools code validation tools. fixed all of the errors that came up and
 ##### html validation
 <img src="https://c1.staticflickr.com/5/4689/38499865805_ed4f4dc8bd_b.jpg" width="100%" alt="validation" />.
 ##### css validation
-<img src="https://c1.staticflickr.com/5/4639/38668985794_7be21a3caa_b.jpg" width="100%" alt="validation" />
+<img src="https://c1.staticflickr.com/5/4639/38668985794_7be21a3caa_b.jpg" width="100%" alt="validation" />.
+##### Console error check
+<img src="https://c1.staticflickr.com/5/4687/39377720451_305c28e564_b.jpg" width="100%" alt="validation" />.
 5. ## Critical review:
 Problems when developing the site that I came across were:
 * website not being responsive although I used all the breakpoints correctly. Apparently, it worked by resizing the browser window but not
