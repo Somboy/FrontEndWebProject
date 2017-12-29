@@ -279,7 +279,7 @@ form {
   background-color: #ddd;
 }
 #the-city .imgs {}
-#the-city .imgs:hover {
+#the-city .imgs :hover {
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -326,7 +326,11 @@ label h3 {
   overflow: hidden;
 }
 /* CSS only show hide */
-
+.bk2top {
+	width: 15%;
+	margin-left: 42%;
+	position: relative;
+}
 .top {
   background-color: #0b8c96;
   color: #fff;

@@ -1,0 +1,6 @@
+Details
+
+Name: Khalid Moalin
+P-Number: P13198111
+GitHub Repository URL: https://github.com/Somboy/FrontEndWebProject
+GitHub Pages URL: https://somboy.github.io/FrontEndWebProject/index.html

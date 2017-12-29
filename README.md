@@ -70,7 +70,8 @@ I will be using combination of HTLM5, CSS3, and JAVASCRIPT E6
   <img src="https://c1.staticflickr.com/5/4635/27562000949_aa5b3b6a64_b.jpg" width="100%" alt="mobileTest" />
   <img src="https://c1.staticflickr.com/5/4638/27561998879_30e537c87e_b.jpg" width="100%" alt="tabletTest" />
   <img src="https://c1.staticflickr.com/5/4729/39338595941_6209d81eed_b.jpg" width="100%" alt="desktopTest" />
-  3. user experience: colleagues and family members to navigate and give feedback for accessibility.	
+  3. user experience: colleagues and family members to navigate and give feedback for accessibility.
+Asked three of university colleagues to navigate and usability test my website. Similarly, two of my family members have used it and the feedback was really good. I have made changes to their suggestions such as moving social media links from the middle to the bottom of the website.   
 * ### code validation: used W3schools website to validate html5 and css
 
 5. ## Critical review:
